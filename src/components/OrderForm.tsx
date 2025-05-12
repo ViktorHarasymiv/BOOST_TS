@@ -9,7 +9,7 @@ export default function OrderForm({ onSubmit }: OrderFormProps) {
   };
   return (
     <>
-      <h2>Form</h2>
+      <h2>FORM TS</h2>
       <form action={handleSubmit}>
         <input type="text" name="username" />
         <button type="submit" style={{ marginLeft: "20px" }}>
