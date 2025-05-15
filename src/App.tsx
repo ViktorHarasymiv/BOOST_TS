@@ -1,4 +1,5 @@
 import "./App.css";
+import Blended_first from "./components/Blended/Blended_first";
 import Trening from "./components/Trening";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
           <Trening />
         </li>
       </ul>
+      <Blended_first />
     </>
   );
 }
